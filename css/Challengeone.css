@@ -59,3 +59,31 @@ html,body{
         margin:14px;
         font-size:0.96em;
       }
+
+      code{
+        display:block;
+          text-align: left;
+        white-space: pre;
+        position: relative;
+          word-break: normal;
+          word-wrap: normal;
+          line-height: 2;
+          background-color:#0a0a0a;
+        padding:15px;
+        margin:10px;
+          border-radius:5px;
+      }
+      @media only screen and (max-width: 768px) {
+        /* For mobile phones: */
+        #navbar ul{
+            border:1px solid;
+            height:260px;
+        }
+        code{
+            margin-left:-20px;
+            width:100%;
+            padding:15px;
+            padding-left:10px;
+            padding-right:45px;
+            min-width:233px;
+          }
