@@ -13,3 +13,5 @@
  <li>Programming</li>
  <li>Data Types</li>
  <li>If Statements</li>
+
+ <p>This page can be viewed using any web brower </p>
